@@ -15,5 +15,11 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 #### Datos más relevantes:
   1) La cantidad más normal de víctimas en siniestros viales con homicidios es de 1 persona.
   2) La mayor cantidad de victimas suelen estar en moto, le siguen los peatones y en tercer lugar autos.
-  3) Los principales acusados del siniestro suelen ser autos, en segundo lugar con transport públicos con pasajeros y en tercer lugar vehiculos de carga
+  3) Los principales acusados del siniestro suelen ser autos, en segundo lugar con transport públicos con pasajeros y en tercer lugar vehiculos de carga.
+  4) El sexo de las víctimas fatales es mayor en masculino por gran diferencia al femenino
+  5) La comuna que tiene mayor cantidad de fatalidades es en la Comuna 1
+  6) El mayor año con fatalidades fue 2018 y el menor 2020.
+  7) Las mayor cantidad de victimas que terminaron en fatalidad entran en grupos de 16 - 30 años.
+  8) Los horarios donde se visualizan mayor cantidad de accidentes es 6, 7 y 9 am
+
 
