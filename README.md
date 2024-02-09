@@ -8,3 +8,5 @@ En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de anali
 
 ## <center>EDA (Exploratory Data Analysis)
 
+Se me ha solicitado presentar un entregable en jupyer notebooks sobre los datasets en referencia que provienen de la página de gobierno de Bs As.
+En este link https://github.com/EliasIchi/PI2_Henry/blob/main/EDA_siniestros%20viales%20CABA.ipynb encontrarás el reporte en jupyer notebooks
