@@ -6,6 +6,13 @@ Bienvenidos al repositorio de proyecto individual n°2 de la carrera ciencia de 
 ## Data Analyst
 En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de analista de datos, para ello, se plantean ciertos requirimientos que serán recorridos en este repositorio
 
+## Contexto:
+La Agencia Nacional de Seguridad Vial dio a conocer que durante el año pasado, 3.861 personas fallecieron como consecuencia de siniestros viales. La cifra representa una disminución del 21% de víctimas mortales con respecto al 2019, año comparable en términos de circulación prepandemia. Además, es la cifra más baja de siniestralidad vial desde 2008. Las estadísticas de la ANSV se realizan en conjunto con todas las provincias, son oficiales, contrastables y con posibilidad de identificación individual de las personas fallecidas.
+
+## Desarrollo del Proyecto
+El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
+• Para cumplir con la solicitud realizaremos
+
 ## <center>EDA (Exploratory Data Analysis)
 
   Se me ha solicitado presentar un entregable en jupyter notebooks sobre los datasets en referencia que provienen de la página de gobierno de Bs As.
