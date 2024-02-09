@@ -37,5 +37,4 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
   7) Las mayor cantidad de victimas que terminaron en fatalidad entran en grupos de 16 - 30 años.
   8) Los horarios donde se visualizan mayor cantidad de accidentes es 6, 7 y 9 am
 
-- [Mapa de Estrellas Amarillas](https://epok.buenosaires.gob.ar/pub/mapa/observatoriovial/estrellas_amarillas/)
 
