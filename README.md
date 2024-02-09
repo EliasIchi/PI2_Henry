@@ -6,10 +6,14 @@ Bienvenidos al repositorio de proyecto individual n°2 de la carrera ciencia de 
 ## Data Analyst
 En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de analista de datos, para ello, se plantean ciertos requirimientos que serán recorridos en este repositorio
 
-## Indice
-<A HREF=https://github.com/EliasIchi/PI2_Henry/blob/main/EDA_siniestros%20viales>1 - Contexto</A>
-<A HREF=https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto>2 - Desarrolo del proyecto</A>
-<A href=https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis>3 - EDA (Exploratory Data Analysis)</A>
+## Índice
+
+- [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/EDA_siniestros%20viales)
+<br>
+- [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto)
+<br>
+- [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis)
+
 
 ## Contexto:
 La Agencia Nacional de Seguridad Vial dio a conocer que durante el año 2021, 3.861 personas fallecieron como consecuencia de siniestros viales. La cifra representa una disminución del 21% de víctimas mortales con respecto al 2019, año comparable en términos de circulación prepandemia. Además, es la cifra más baja de siniestralidad vial desde 2008. Las estadísticas de la ANSV se realizan en conjunto con todas las provincias, son oficiales, contrastables y con posibilidad de identificación individual de las personas fallecidas.
