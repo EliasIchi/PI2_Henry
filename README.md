@@ -8,7 +8,7 @@ En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de anali
 
 ## Índice
 
-- [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/EDA_siniestros%20viales)<br>
+- [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#contexto)<br>
 - [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto)<br>
 - [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis)<br>
 
