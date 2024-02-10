@@ -9,7 +9,7 @@ En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de anali
 ## Índice
 
 - [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#contexto)<br>
-- [Estructura del proyecto)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#estructura-del-proyecto)<br>
+- [Estructura del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#estructura-del-proyecto)<br>
 - [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto)<br>
 - [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis)<br>
 - [ETL (Extract, Transform, Load)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#etl-extract-transform-load)<br>
@@ -27,10 +27,15 @@ El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se 
 ## Estructura del Proyecto
 
 • /SQL  > Carpeta que contiene scripts SQL, un video explicativo sobre la conexión MySQL con PowerBI y documentación importante.
+
 • /data  > Directorio que almacena los datasets originales utilizados para el dashboard.
+
 • /images  > Directorio que contiene imágenes utilizadas en este repositorio.
+
 • EDA_siniestros viales CABA.ipynb  > Script Python para análisis exploratorio de datos.
+
 • LICENSE  > Archivo que contiene la licencia del repositorio.
+
 • README.md  > Archivo README del proyecto.
 
 ## <center>EDA (Exploratory Data Analysis)
