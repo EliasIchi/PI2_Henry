@@ -57,4 +57,5 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 ## <center>ETL (Extract, Transform, Load)
   En resumen, el proceso completo incluye la extracción de datos desde la URL del gobierno de Buenos Aires, la transformación inicial en Python utilizando Pandas, la carga en una base de datos MySQL, y luego la limpieza y refinamiento más exhaustivo utilizando Power Query. Este enfoque garantiza que los datos estén limpios, estructurados y listos para su análisis posterior.  
 
+![insert_datos_database](https://github.com/EliasIchi/PI2_Henry/assets/124707045/fcbf2ad8-ed83-46b9-a8ee-51dcaaf5ec03)
 
