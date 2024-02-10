@@ -6,10 +6,10 @@ A continuación, encontrarás las instrucciones para acceder a la base de datos 
 
 ## Detalles de Acceso
 
-- **Host:** brdarzmtrelqg6gpgtds-mysql.services.clever-cloud.com
-- **Nombre de la Base de Datos:** brdarzmtrelqg6gpgtds
-- **Usuario:** ujbaxm2nkqjhzhmx
-- **Contraseña:** kqnhVmR0Y0kpRI54rvkM
+- **Host:** bxokxli6ony9h37yyttx-mysql.services.clever-cloud.com
+- **Nombre de la Base de Datos:** bxokxli6ony9h37yyttx
+- **Usuario:** up6ttqf318weusrr
+- **Contraseña:** YeJzjF29ERbMf6PHHThK
 
 ## Pasos para Acceder
 
@@ -17,11 +17,11 @@ A continuación, encontrarás las instrucciones para acceder a la base de datos 
 
 2. Ingresa la información de conexión provista anteriormente en los campos correspondientes del cliente de MySQL:
 
-   - **Host:** brdarzmtrelqg6gpgtds-mysql.services.clever-cloud.com
-   - **Usuario:** ujbaxm2nkqjhzhmx
-   - **Contraseña:** kqnhVmR0Y0kpRI54rvkM
-   - **Base de Datos:** brdarzmtrelqg6gpgtds
-
+   - **Host:** bxokxli6ony9h37yyttx-mysql.services.clever-cloud.com
+   - **Nombre de la Base de Datos:** bxokxli6ony9h37yyttx
+   - **Usuario:** up6ttqf318weusrr
+   - **Contraseña:** YeJzjF29ERbMf6PHHThK
+   - 
 3. Haz clic en "Conectar" o presiona Enter para establecer la conexión con la base de datos.
 
 4. Una vez conectado/a, podrás acceder y consultar los datos de siniestros viales en la base de datos.
