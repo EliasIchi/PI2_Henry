@@ -20,9 +20,13 @@ La Agencia Nacional de Seguridad Vial dio a conocer que durante el año 2021, 3.
 El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
 
 ## Estructura del Proyecto
-• /data
-•/data/SQL
-•/image
+• /SQL >carpeta script SQL, video explicativo conexion MySQL con powerBi y documentación importante
+• /data > los dataset originales que utilizaremos para el dashboard
+• /images > imagenes que se utilizan en este repoistorio
+• EDA_siniestros viales CABA.ipynb script python de analisis exploratorio de datos
+• LICENSE > licencia de repositorio
+• README.md > readme del proyecto
+
 
   • Para cumplir con la solicitud realizaremos un EDA (Analisis explorattorio de los datos), solicitud de OMSV para poder entender cual es la situación que se atravesó en CABA a través de información recaudada
   • ETL (Extraction, Tranform and Load), ya conociendo los datos vamos a extraerlos con herramientas de ciencia de datos para transformar los datos, de tal manera que aporten valor real y permita una toma de decisiones para disminuir el porcentaje de siniestros viales
