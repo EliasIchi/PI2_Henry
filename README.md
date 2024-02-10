@@ -57,6 +57,6 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 ## <center>ETL (Extract, Transform, Load)
   En resumen, el proceso completo incluye la extracción de datos desde la URL del gobierno de Buenos Aires, la transformación inicial en Python utilizando Pandas, la carga en una base de datos MySQL, y luego la limpieza y refinamiento más exhaustivo utilizando Power Query. Este enfoque garantiza que los datos estén limpios, estructurados y listos para su análisis posterior.  
 
-<A HREF=https://drive.google.com/file/d/1b9VdPckKImrS7aYJgD8X67ejIRoFNBZ8/view>![insert_datos_database (1)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/fc10df28-3649-4c54-93ee-3977470987cd)</A> &nbsp;&nbsp;&nbsp;&nbsp; <A HREF=https://drive.google.com/file/d/1VUEaOMOLCzEJvQXavX1aJWX6H58ClrXH/view>![images (2)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/3b895cb0-fb2d-4b1f-a6b1-e2ea6f7570fc)</A>
+<center><A HREF=https://drive.google.com/file/d/1b9VdPckKImrS7aYJgD8X67ejIRoFNBZ8/view>![insert_datos_database (1)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/fc10df28-3649-4c54-93ee-3977470987cd)</A> &nbsp;&nbsp;&nbsp;&nbsp; <A HREF=https://drive.google.com/file/d/1VUEaOMOLCzEJvQXavX1aJWX6H58ClrXH/view>![images (2)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/3b895cb0-fb2d-4b1f-a6b1-e2ea6f7570fc)</A>
 
 
