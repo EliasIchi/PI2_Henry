@@ -16,14 +16,6 @@ En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de anali
 
 ## Contexto:
 La Agencia Nacional de Seguridad Vial dio a conocer que durante el año 2021, 3.861 personas fallecieron como consecuencia de siniestros viales. La cifra representa una disminución del 21% de víctimas mortales con respecto al 2019, año comparable en términos de circulación prepandemia. Además, es la cifra más baja de siniestralidad vial desde 2008. Las estadísticas de la ANSV se realizan en conjunto con todas las provincias, son oficiales, contrastables y con posibilidad de identificación individual de las personas fallecidas.
-
-## Desarrollo del Proyecto
-El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
-
-  • Para cumplir con la solicitud realizaremos un EDA (Analisis explorattorio de los datos), solicitud de OMSV para poder entender cual es la situación que se atravesó en CABA a través de información recaudada
-  
-  • ETL (Extraction, Tranform and Load), ya conociendo los datos vamos a extraerlos con herramientas de ciencia de datos para transformar los datos, de tal manera que aporten valor real y permita una toma de decisiones para disminuir el porcentaje de siniestros viales
-  
 ## Estructura del Proyecto
 
 • /SQL  > Carpeta que contiene scripts SQL, un video explicativo sobre la conexión MySQL con PowerBI y documentación importante.
@@ -44,6 +36,15 @@ El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se 
   En este link <A HREF=https://github.com/EliasIchi/PI2_Henry/blob/main/EDA_siniestros%20viales%20CABA.ipynb>EDA_siniestros_viales_CABA</A> encontrarás el reporte.
 A simple vista, se entiende que se le dió mayor importancia en recaudar datos sobre fatalidades que lesiones, ya que el dataset de homicidios es el que tiene mayor información en cuánto años, y además, el que cuenta con información más ordenada.
   Mientras que el dataset de lesionados tiene gran cantidad de celdas "Sin Datos", lo cuál da a entender, que la prioridad lógica es conocer donde, como y cuando suceden fatalidades.
+
+## Desarrollo del Proyecto
+El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales.
+
+  • Para cumplir con la solicitud realizaremos un EDA (Analisis explorattorio de los datos), solicitud de OMSV para poder entender cual es la situación que se atravesó en CABA a través de información recaudada
+  
+  • ETL (Extraction, Tranform and Load), ya conociendo los datos vamos a extraerlos con herramientas de ciencia de datos para transformar los datos, de tal manera que aporten valor real y permita una toma de decisiones para disminuir el porcentaje de siniestros viales
+  
+
 #### Datos más relevantes:
   1) La cantidad más normal de víctimas en siniestros viales con homicidios es de 1 persona.
   2) La mayor cantidad de victimas suelen estar en moto, le siguen los peatones y en tercer lugar autos.
