@@ -1,6 +1,3 @@
-https://app.powerbi.com/view?r=eyJrIjoiOWVkYjFhYmUtNjI5Mi00ZmIyLTgyYTItNjcyYzU0Yzg0MWU4IiwidCI6IjgyZDEwOTAwLWM2M2ItNDhhYi1hYTg1LWViMWM2OTJjYThmMSIsImMiOjR9&pageName=ReportSection&pageName=ReportSection
-
-
 # <center>Siniestros Viales (CABA)
 Bienvenidos al repositorio de proyecto individual n°2 de la carrera ciencia de datos en Henry
 
