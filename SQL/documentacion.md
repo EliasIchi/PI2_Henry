@@ -6,10 +6,10 @@ A continuación, encontrarás las instrucciones para acceder a la base de datos 
 
 ## Detalles de Acceso
 
-- **Host:** bxokxli6ony9h37yyttx-mysql.services.clever-cloud.com
-- **Nombre de la Base de Datos:** bxokxli6ony9h37yyttx
-- **Usuario:** up6ttqf318weusrr
-- **Contraseña:** YeJzjF29ERbMf6PHHThK
+- **Host:** beluwmcbyk7jtcwfn5hm-mysql.services.clever-cloud.com
+- **Nombre de la Base de Datos:** beluwmcbyk7jtcwfn5hm
+- **Usuario:** uvbsbzdexdjlsubk
+- **Contraseña:** NJu410nzcf4aDiYRlXLF
 
 ## Pasos para Acceder
 
