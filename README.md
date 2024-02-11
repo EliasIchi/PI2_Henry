@@ -4,7 +4,7 @@ Bienvenidos al repositorio de proyecto individual n°2 de la carrera ciencia de 
 ![accidentes_viales](https://github.com/EliasIchi/PI2_Henry/assets/124707045/608f8a08-7bb6-408c-be8b-2480f43afab8)
 
 ## Data Analyst
-En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de analista de datos, para ello, se plantean ciertos requirimientos que serán recorridos en este repositorio
+En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de analista de datos, para ello, se plantean ciertos requerimientos que serán recorridos en este repositorio
 
 ## Índice
 
@@ -47,7 +47,7 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 #### Datos más relevantes:
   1) La cantidad más normal de víctimas en siniestros viales con homicidios es de 1 persona.
   2) La mayor cantidad de victimas suelen estar en moto, le siguen los peatones y en tercer lugar autos.
-  3) Los principales acusados del siniestro suelen ser autos, en segundo lugar con transport públicos con pasajeros y en tercer lugar vehiculos de carga.
+  3) Los principales acusados del siniestro suelen ser autos, en segundo lugar con transportes públicos con pasajeros y en tercer lugar vehiculos de carga.
   4) El sexo de las víctimas fatales es mayor en masculino por gran diferencia al femenino
   5) La comuna que tiene mayor cantidad de fatalidades es en la Comuna 1
   6) El mayor año con fatalidades fue 2018 y el menor 2020.
@@ -55,7 +55,7 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
   8) Los horarios donde se visualizan mayor cantidad de accidentes es 6, 7 y 9 am
 
 ## <center>ETL (Extract, Transform, Load)
-  En resumen, el proceso completo incluye la extracción de datos desde la URL del gobierno de Buenos Aires, la transformación inicial en Python utilizando Pandas, la carga en una base de datos MySQL, y luego la limpieza y refinamiento más exhaustivo utilizando Power Query. Este enfoque garantiza que los datos estén limpios, estructurados y listos para su análisis posterior.  
+  En resumen, el proceso completo incluye la extracción de datos desde la URL del gobierno de Buenos Aires, la transformación inicial en Python utilizando Pandas en el siguiente Jupyter Notebook: <A HREF=https://github.com/EliasIchi/PI2_Henry/blob/main/ETL.ipynb>ETL_siniestros_viales_CABA</A>, la carga en una base de datos MySQL, y luego la limpieza y refinamiento más exhaustivo utilizando Power Query. Este enfoque garantiza que los datos estén limpios, estructurados y listos para su análisis posterior.  
 
 <A HREF=https://drive.google.com/file/d/1b9VdPckKImrS7aYJgD8X67ejIRoFNBZ8/view>![insert_datos_database (1)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/fc10df28-3649-4c54-93ee-3977470987cd)</A> &nbsp;&nbsp;&nbsp;&nbsp; <A HREF=https://drive.google.com/file/d/1VUEaOMOLCzEJvQXavX1aJWX6H58ClrXH/view>![images (2)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/3b895cb0-fb2d-4b1f-a6b1-e2ea6f7570fc)</A>
 
