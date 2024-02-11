@@ -50,14 +50,14 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
   
 
 #### Datos más relevantes:
-  1) La cantidad más normal de víctimas en siniestros viales con homicidios es de 1 persona.
+  1) La cantidad más normal de víctimas por siniestros viales con homicidios es de 1 persona por hecho.
   2) La mayor cantidad de victimas suelen estar en moto, le siguen los peatones y en tercer lugar autos.
   3) Los principales acusados del siniestro suelen ser autos, en segundo lugar con transportes públicos con pasajeros y en tercer lugar vehiculos de carga.
-  4) El sexo de las víctimas fatales es mayor en masculino por gran diferencia al femenino
+  4) El sexo de las víctimas fatales es mayor en masculino por gran diferencia al femenino.
   5) La comuna que tiene mayor cantidad de fatalidades es en la Comuna 1
-  6) El mayor año con fatalidades fue 2018 y el menor 2020.
+  6) El año con mayor cantidad de fatalidades por siniestros viales fue 2018 y el menor 2020 (año pandemia COVID, con protocolo #Quedateencasa.
   7) Las mayor cantidad de victimas que terminaron en fatalidad entran en grupos de 16 - 30 años.
-  8) Los horarios donde se visualizan mayor cantidad de accidentes es 6, 7 y 9 am
+  8) Los horarios donde se visualizan mayor cantidad de siniestros viales es 6, 7 y 9 am
 
 ## <center>ETL (Extract, Transform, Load)
   En resumen, el proceso completo incluye la extracción de datos desde la URL del gobierno de Buenos Aires, la transformación inicial en Python utilizando Pandas en el siguiente Jupyter Notebook: <A HREF=https://github.com/EliasIchi/PI2_Henry/blob/main/ETL.ipynb>ETL_siniestros_viales_CABA</A>, la carga en una base de datos MySQL, y luego la limpieza y refinamiento más exhaustivo utilizando Power Query. Este enfoque garantiza que los datos estén limpios, estructurados y listos para su análisis posterior.  
