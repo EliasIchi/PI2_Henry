@@ -27,7 +27,7 @@ La Agencia Nacional de Seguridad Vial dio a conocer que durante el año 2021, 3.
 
 • /images  > Directorio que contiene imágenes utilizadas en este repositorio.
 
-• /dashboard  > Carpeta que contiene ppt explicando brevemente el dashboard, plantilla de pbi y pdf.
+• /dashboard  > Carpeta que contiene ppt explicando brevemente el dashboard, plantilla de pbi y pdf, video breve de uso de python en pbi.
 
 • EDA_siniestros viales CABA.ipynb  > Script Python para análisis exploratorio de datos.
 
