@@ -93,7 +93,7 @@ xls_homicidios = pd.ExcelFile(url_homicidios)
 nombres_hojas_homicidios = xls_homicidios.sheet_names
 
 h_hechos = df_homicidios_primera_hoja = pd.read_excel(url_homicidios, sheet_name=nombres_hojas_homicidios[0])
-mapa_caba = gpd.read_file("coordenadas.geojson")
+mapa_caba = gpd.read_file("https://raw.githubusercontent.com/EliasIchi/PI2_Henry/main/streamlit/coordenadas.geojson")
 
 # Eliminar filas con valores no válidos en las columnas de coordenadas
 h_hechos_limpios = h_hechos.dropna(subset=['pos x', 'pos y'])
