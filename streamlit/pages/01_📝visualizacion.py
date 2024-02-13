@@ -68,26 +68,6 @@ plt.ylabel('')
 plt.show()
 
 
-#mapa con folium
-mapa_caba = gpd.read_file("https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-educacion/comunas/comunas.geojson")
-
-# Eliminar filas con valores no válidos en las columnas de coordenadas
-h_hechos_limpios = h_hechos.dropna(subset=['pos x', 'pos y'])
-h_hechos_limpios = h_hechos_limpios[(h_hechos_limpios['pos x'] != '.') & (h_hechos_limpios['pos y'] != '.')]
-
-# Crear un mapa centrado en Buenos Aires
-mapa = folium.Map(location=[-34.6037, -58.3816], zoom_start=12)
-
-# Superponer los puntos del DataFrame "h_hechos_limpios"
-for index, row in h_hechos_limpios.iterrows():
-    folium.CircleMarker(location=[row['pos y'], row['pos x']], radius=5, color='green', fill=True, fill_color='green', fill_opacity=0.5).add_to(mapa)
-
-# Agregar el archivo GeoJSON de las comunas de Buenos Aires al mapa
-folium.GeoJson(mapa_caba).add_to(mapa)
-
-# Mostrar el mapa
-mapa
-
 if st.checkbox("vista head o tail"):
     if st.button("Ver head"):
         st.write(h_hechos.head())
@@ -100,3 +80,36 @@ if dim == "Filas":
     st. write("Cantidad de filas: ", h_hechos.shape[0])
 else:
     st.write("Cantidad de columnas ", h_hechos.shape[1])
+
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import contextily as ctx
+
+# Cargar el archivo GeoJSON de las comunas de Buenos Aires
+mapa_caba = gpd.read_file("https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-educacion/comunas/comunas.geojson")
+
+# Crear un nuevo DataFrame con las coordenadas limpias
+h_hechos_limpios = h_hechos.dropna(subset=['pos x', 'pos y'])
+h_hechos_limpios = h_hechos_limpios[(h_hechos_limpios['pos x'] != '.') & (h_hechos_limpios['pos y'] != '.')]
+
+# Convertir las coordenadas a formato numérico
+h_hechos_limpios['pos x'] = pd.to_numeric(h_hechos_limpios['pos x'])
+h_hechos_limpios['pos y'] = pd.to_numeric(h_hechos_limpios['pos y'])
+
+# Crear un gráfico utilizando Matplotlib
+fig, ax = plt.subplots(figsize=(10, 10))
+
+# Superponer los puntos del DataFrame "h_hechos_limpios"
+ax.scatter(h_hechos_limpios['pos x'], h_hechos_limpios['pos y'], color='red', alpha=0.5, s=5)
+
+# Añadir el mapa base estilo OpenStreetMap
+ctx.add_basemap(ax, crs=mapa_caba.crs.to_string(), source=ctx.providers.OpenStreetMap.Mapnik)
+
+# Establecer título y etiquetas de ejes
+ax.set_title('Mapa de la Ciudad Autónoma de Buenos Aires con puntos')
+ax.set_xlabel('Longitud')
+ax.set_ylabel('Latitud')
+
+# Mostrar el mapa
+plt.show()
+
