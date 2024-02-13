@@ -81,36 +81,22 @@ plt.ylabel('')
 plt.show()
 
 
-
-
-
-# URLs de los libros de Excel
+# Cargar los datos
 url_homicidios = "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/transporte-y-obras-publicas/victimas-siniestros-viales/homicidios.xlsx"
-
-xls_homicidios = pd.ExcelFile(url_homicidios)
-
-# Obtener nombres de las hojas y cantidad de hojas
-nombres_hojas_homicidios = xls_homicidios.sheet_names
-
-h_hechos = df_homicidios_primera_hoja = pd.read_excel(url_homicidios, sheet_name=nombres_hojas_homicidios[0])
-mapa_caba = gpd.read_file("https://raw.githubusercontent.com/EliasIchi/PI2_Henry/main/streamlit/coordenadas.geojson")
+h_hechos = pd.read_excel(url_homicidios)
 
 # Eliminar filas con valores no válidos en las columnas de coordenadas
 h_hechos_limpios = h_hechos.dropna(subset=['pos x', 'pos y'])
 h_hechos_limpios = h_hechos_limpios[(h_hechos_limpios['pos x'] != '.') & (h_hechos_limpios['pos y'] != '.')]
 
-# Crear un mapa centrado en Buenos Aires
-mapa = folium.Map(location=[-34.6037, -58.3816], zoom_start=12)
+# Crear un DataFrame para los puntos de interés
+puntos_interes = pd.DataFrame({
+    'lat': h_hechos_limpios['pos y'],
+    'lon': h_hechos_limpios['pos x'],
+})
+# Convertir las columnas de latitud y longitud a tipo numérico
+puntos_interes['lat'] = pd.to_numeric(puntos_interes['lat'], errors='coerce')
+puntos_interes['lon'] = pd.to_numeric(puntos_interes['lon'], errors='coerce')
 
-# Superponer los puntos del DataFrame "h_hechos_limpios"
-for index, row in h_hechos_limpios.iterrows():
-    folium.CircleMarker(location=[row['pos y'], row['pos x']], radius=5, color='green', fill=True, fill_color='green', fill_opacity=0.5).add_to(mapa)
-
-# Agregar el archivo GeoJSON de las comunas de Buenos Aires al mapa
-folium.GeoJson(mapa_caba).add_to(mapa)
-
-# Mostrar el mapa
-mapa
-
-
-
+# Mostrar el mapa en Streamlit
+st.map(puntos_interes)
