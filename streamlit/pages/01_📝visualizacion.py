@@ -24,6 +24,19 @@ h_hechos = df_homicidios_primera_hoja = pd.read_excel(url_homicidios, sheet_name
 if st.checkbox("Mostrar dataset"):
     st.write(h_hechos)
 
+if st.checkbox("vista head o tail"):
+    if st.button("Ver head"):
+        st.write(h_hechos.head())
+    if st.button("Ver tail"):
+        st.write(h_hechos.tail())
+
+dim = st.radio("Dimensión a mostrar:",("Filas",'Columnas'), horizontal= True)
+
+if dim == "Filas":
+    st. write("Cantidad de filas: ", h_hechos.shape[0])
+else:
+    st.write("Cantidad de columnas ", h_hechos.shape[1])
+
 
 # Calcular día, mes y año
 h_hechos['FECHA'] = pd.to_datetime(h_hechos['FECHA'])
@@ -68,48 +81,36 @@ plt.ylabel('')
 plt.show()
 
 
-if st.checkbox("vista head o tail"):
-    if st.button("Ver head"):
-        st.write(h_hechos.head())
-    if st.button("Ver tail"):
-        st.write(h_hechos.tail())
 
-dim = st.radio("Dimensión a mostrar:",("Filas",'Columnas'), horizontal= True)
 
-if dim == "Filas":
-    st. write("Cantidad de filas: ", h_hechos.shape[0])
-else:
-    st.write("Cantidad de columnas ", h_hechos.shape[1])
 
-import geopandas as gpd
-import matplotlib.pyplot as plt
-import contextily as ctx
+# URLs de los libros de Excel
+url_homicidios = "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/transporte-y-obras-publicas/victimas-siniestros-viales/homicidios.xlsx"
 
-# Cargar el archivo GeoJSON de las comunas de Buenos Aires
-mapa_caba = gpd.read_file("https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-educacion/comunas/comunas.geojson")
+xls_homicidios = pd.ExcelFile(url_homicidios)
 
-# Crear un nuevo DataFrame con las coordenadas limpias
+# Obtener nombres de las hojas y cantidad de hojas
+nombres_hojas_homicidios = xls_homicidios.sheet_names
+
+h_hechos = df_homicidios_primera_hoja = pd.read_excel(url_homicidios, sheet_name=nombres_hojas_homicidios[0])
+mapa_caba = gpd.read_file("coordenadas.geojson")
+
+# Eliminar filas con valores no válidos en las columnas de coordenadas
 h_hechos_limpios = h_hechos.dropna(subset=['pos x', 'pos y'])
 h_hechos_limpios = h_hechos_limpios[(h_hechos_limpios['pos x'] != '.') & (h_hechos_limpios['pos y'] != '.')]
 
-# Convertir las coordenadas a formato numérico
-h_hechos_limpios['pos x'] = pd.to_numeric(h_hechos_limpios['pos x'])
-h_hechos_limpios['pos y'] = pd.to_numeric(h_hechos_limpios['pos y'])
-
-# Crear un gráfico utilizando Matplotlib
-fig, ax = plt.subplots(figsize=(10, 10))
+# Crear un mapa centrado en Buenos Aires
+mapa = folium.Map(location=[-34.6037, -58.3816], zoom_start=12)
 
 # Superponer los puntos del DataFrame "h_hechos_limpios"
-ax.scatter(h_hechos_limpios['pos x'], h_hechos_limpios['pos y'], color='red', alpha=0.5, s=5)
+for index, row in h_hechos_limpios.iterrows():
+    folium.CircleMarker(location=[row['pos y'], row['pos x']], radius=5, color='green', fill=True, fill_color='green', fill_opacity=0.5).add_to(mapa)
 
-# Añadir el mapa base estilo OpenStreetMap
-ctx.add_basemap(ax, crs=mapa_caba.crs.to_string(), source=ctx.providers.OpenStreetMap.Mapnik)
-
-# Establecer título y etiquetas de ejes
-ax.set_title('Mapa de la Ciudad Autónoma de Buenos Aires con puntos')
-ax.set_xlabel('Longitud')
-ax.set_ylabel('Latitud')
+# Agregar el archivo GeoJSON de las comunas de Buenos Aires al mapa
+folium.GeoJson(mapa_caba).add_to(mapa)
 
 # Mostrar el mapa
-plt.show()
+mapa
+
+
 
