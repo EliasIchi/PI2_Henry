@@ -69,7 +69,7 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 
 ## <center>Dashboard Final Siniestros Viales
 Para finalizar he aqui el reporte, un dashboard en power bi,
-dentro de este reporte encontrarás gráficos dinámicos e iinteractivos con información clara y sencilla para poder entender el comportamiento de siniestros viales en CABA durante el período 2016 a 2021, no solo encontrarás gráficos, sino también conclusiones y datos interesantes para tomar decisiones a futuro.
+dentro de éste encontrarás gráficos dinámicos e iinteractivos con información clara y sencilla para poder entender el comportamiento de siniestros viales en CABA durante el período 2016 a 2021, no solo encontrarás gráficos, sino también conclusiones y datos interesantes para tomar decisiones a futuro.
  Ademas podrás descargar el pbix o plantilla de power bi desde el repo y replicarlo.
  Te invito a ver un video al hacer click en la imagen.
 Que lo disfrutes!!!
