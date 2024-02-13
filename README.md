@@ -67,6 +67,5 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 
 
 ## <center>Dashboard Final Siniestros Viales
-![Dashboard_final](https://github.com/EliasIchi/PI2_Henry/assets/124707045/184fafc4-7960-4efe-8e46-b6e495118007)
-
+<A HREF=https://drive.google.com/file/d/1WSo63q-5plclTY53NZ6q8754q98trYP8/view>![Dashboard_final](https://github.com/EliasIchi/PI2_Henry/assets/124707045/184fafc4-7960-4efe-8e46-b6e495118007))</A>
 
