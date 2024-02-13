@@ -1,0 +1,21 @@
+import streamlit as st
+
+st.title("Videos del Proyecto, realmente entretenido!!!")
+
+st.subheader("Conexión con MySQL desde powerBI")
+
+# URL del video de YouTube
+video_url = "https://www.youtube.com/watch?v=ZddG4vqXfOQ"
+
+# Mostrar el video
+st.video(video_url)
+
+st.subheader("Recorrido por el dashboard")
+
+# URL del video de YouTube
+video_url = "https://www.youtube.com/watch?v=VEcWNIr7TtM"
+
+# Mostrar el video
+st.video(video_url)
+
+"https://www.youtube.com/watch?v=VEcWNIr7TtM"
