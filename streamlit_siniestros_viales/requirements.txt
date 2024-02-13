@@ -83,4 +83,4 @@ watchdog==4.0.0
 wcwidth==0.2.13
 xyzservices==2023.10.1
 zipp==3.17.0
-wordcloud
+wordcloud==lastest
