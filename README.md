@@ -78,3 +78,8 @@ Que lo disfrutes!!!
 
 
 <A HREF=https://drive.google.com/file/d/1WSo63q-5plclTY53NZ6q8754q98trYP8/view>![Dashboard_final](https://github.com/EliasIchi/PI2_Henry/assets/124707045/184fafc4-7960-4efe-8e46-b6e495118007)</A>
+
+## Streamlit:
+Streamlit es un framework open source para la creación de aplicaciones weqb interactivas y basadas en datos. Está diseñado para facilitar la creación de aplicaciones de machine learning, visualización de datos y paneles de control de manera rápida y sencilla.
+  Te invito a ver como hice deploy final de la app en unos minutos:
+[Deploy](https://www.youtube.com/watch?v=LhHhCMSVWH8)
