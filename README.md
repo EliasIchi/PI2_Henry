@@ -115,6 +115,9 @@ Streamlit es un framework open source para la creación de aplicaciones weqb int
 <A HREF=https://drive.google.com/file/d/107nAYMLCiHLa7IM9BA4M2EgYxE4SI4Ih/view>![](https://github.com/EliasIchi/PI2_Henry/assets/124707045/d9b1a59b-2fc3-4adf-8745-7bd9eaea5961)</A>
 
 
+## Conclusiones
+
+
 Gracias al análisis exhaustivos de los datos aportados por el gobierno de la ciudad, notamos que:
 
 1. El género con mayor cantidad de víctimas es el masculino.
