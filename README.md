@@ -24,23 +24,28 @@ En esta oportunidad Henry nos desafía a crear un proyecto desde el rol de anali
 ## Contexto:
 La Agencia Nacional de Seguridad Vial dio a conocer que durante el año 2021, 3.861 personas fallecieron como consecuencia de siniestros viales. La cifra representa una disminución del 21% de víctimas mortales con respecto al 2019, año comparable en términos de circulación prepandemia. Además, es la cifra más baja de siniestralidad vial desde 2008. Las estadísticas de la ANSV se realizan en conjunto con todas las provincias, son oficiales, contrastables y con posibilidad de identificación individual de las personas fallecidas.
 
-## Estructura del Proyecto
+## Estructura del Proyecto 🏗️
 
-• /SQL > Carpeta que contiene scripts SQL, un video explicativo sobre la conexión MySQL con PowerBI y documentación importante.
+- **/SQL**: Carpeta que contiene scripts SQL, un video explicativo sobre la conexión MySQL con PowerBI y documentación importante.
 
-• /dashboard > Carpeta que contiene ppt explicando brevemente el dashboard, plantilla de pbi y pdf, video breve de uso de python en pbi.
+- **/dashboard**: Carpeta que contiene:
+  - PPT explicando brevemente el dashboard.
+  - Plantilla de Power BI y PDF.
+  - Video breve de uso de Python en Power BI.
 
-• /data > Directorio que almacena los datasets originales utilizados para el dashboard.
+- **/data**: Directorio que almacena los datasets originales utilizados para el dashboard.
 
-• /images > Directorio que contiene imágenes utilizadas en este repositorio.
+- **/images**: Directorio que contiene imágenes utilizadas en este repositorio.
 
-• /streamlit_siniestros_viales > Directorio que contiene los archivos necesarios para el deploy de la app en streamlit.
+- **/streamlit_siniestros_viales**: Directorio que contiene los archivos necesarios para el deploy de la app en Streamlit.
 
-• EDA_siniestros viales CABA.ipynb > Notebook ejecutado de análisis exploratorio de datos.
+- **EDA_siniestros viales CABA.ipynb**: Notebook ejecutado de análisis exploratorio de datos.
 
-• EDA_siniestros viales CABA.ipynb > Notebook ejecutado de ETL.
+- **ETL_siniestros viales CABA.ipynb**: Notebook ejecutado de ETL.
 
-• LICENSE > Archivo que contiene la licencia del repositorio.
+- **LICENSE**: Archivo que contiene la licencia del repositorio.
+
+## ¡Contribuciones Son Bienvenidas! 🙌
 
 • README.md > Archivo README del proyecto.
 
