@@ -70,19 +70,19 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 
 
 ## <center>KPIs (key performance indicator)
-Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
+1)Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
 
 Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
 
-Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
+2)Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 
 Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
 
-Reducir en un 10% la cantidad de accidentes mortales en el último año, en CABA, respecto al año anterior.
+3)Reducir en un 10% la cantidad de accidentes mortales en el último año, en CABA, respecto al año anterior.
 
 Definimos a la cantidad de accidentes mortales en cruces en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas en cruces en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales en cruces es: (Número de accidentes mortales con víctimas en cruces en el año anterior - Número de accidentes mortales con víctimas en cruces año actual) / (Número de accidentes mortales con víctimas en cruces en el año anterior) * 100
 
-![KPIS](https://github.com/EliasIchi/PI2_Henry/assets/124707045/6d5a25b3-b18f-4ded-9ad4-0e95cf6f875f)
+![kpis (1)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/400f359e-9609-4a7b-9c93-07699091b30a)
 
 
 ## <center>Dashboard Final Siniestros Viales
