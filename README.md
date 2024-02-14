@@ -82,4 +82,7 @@ Que lo disfrutes!!!
 ## Streamlit:
 Streamlit es un framework open source para la creación de aplicaciones weqb interactivas y basadas en datos. Está diseñado para facilitar la creación de aplicaciones de machine learning, visualización de datos y paneles de control de manera rápida y sencilla.
   Te invito a ver como hice deploy final de la app en unos minutos:
-[Ver video en el siguiente enlace, haciendo click en la imagen:](https://www.youtube.com/watch?v=LhHhCMSVWH8)
+Ver video en el siguiente enlace, haciendo click en la imagen:
+
+
+<A HREF=<https://www.youtube.com/watch?v=LhHhCMSVWH8>![](https://github.com/EliasIchi/PI2_Henry/assets/124707045/d9b1a59b-2fc3-4adf-8745-7bd9eaea5961)</A>
