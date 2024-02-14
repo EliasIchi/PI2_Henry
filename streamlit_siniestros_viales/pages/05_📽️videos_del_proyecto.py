@@ -31,4 +31,14 @@ video_url = "https://www.youtube.com/watch?v=VEcWNIr7TtM"
 st.video(video_url)
 
 
+st.subheader("Deploy Streamlit")
+
+# URL del video de YouTube
+video_url = "https://www.youtube.com/watch?v=LhHhCMSVWH8
+"
+
+# Mostrar el video
+st.video(video_url)
+
+
 
