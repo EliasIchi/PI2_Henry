@@ -10,16 +10,16 @@ En esta oportunidad, Henry nos desafía a crear un proyecto desde el rol de anal
 
 ## Índice 📝
 
-- [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#contexto)
-- [Estructura del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#estructura-del-proyecto)
-- [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto)
-- [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis)
-- [ETL (Extract, Transform, Load)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#etl-extract-transform-load)
-- [KPIs (Key Performance Indicators)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#kpis-key-performance-indicator)
-- [Dashboard Final](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#dashboard-final-siniestros-viales)
-- [Streamlit](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#streamlit)
-- [Conclusiones](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#conclusiones)
-- [Sugerencias](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#sugerencias)
+- [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#contexto-)
+- [Estructura del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#estructura-del-proyecto-)
+- [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto-)
+- [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis-)
+- [ETL (Extract, Transform, Load)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#etl-extract-transform-load-)
+- [KPIs (Key Performance Indicators)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#kpis-key-performance-indicator-)
+- [Dashboard Final](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#dashboard-final-siniestros-viales-)
+- [Streamlit](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#streamlit-)
+- [Conclusiones](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#conclusiones-)
+- [Sugerencias](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#sugerencias-)
 
 ## Contexto 🌍
 
