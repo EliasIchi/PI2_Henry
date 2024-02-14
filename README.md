@@ -105,3 +105,5 @@ En base a estos datos, algunas sugerencias para reducir la incidencia de siniest
 - Mejorar la infraestructura vial en áreas de alto riesgo, como intersecciones y cruces, mediante la instalación de semáforos, señalización adecuada y diseño de calles más seguras.
 - Reforzar la aplicación de la ley de tránsito, especialmente en lo que respecta a conductas imprudentes como el exceso de velocidad, el consumo de alcohol al conducir y el uso de dispositivos móviles mientras se conduce.
 - Promover el uso de equipos de seguridad, como cascos para motociclistas y cinturones de seguridad para conductores y pasajeros de vehículos.
+
+¡Gracias por visitar nuestro repositorio! Esperamos que este proyecto sea útil para comprender y abordar el problema de los siniestros viales en la Ciudad Autónoma de Buenos Aires. 🚦🛑
