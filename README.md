@@ -107,8 +107,9 @@ Que lo disfrutes!!!
 
 ## Streamlit:
 Streamlit es un framework open source para la creación de aplicaciones weqb interactivas y basadas en datos. Está diseñado para facilitar la creación de aplicaciones de machine learning, visualización de datos y paneles de control de manera rápida y sencilla.
-  Te invito a ver mi app en el siguiente enlace: <A HREF=https://siniestros-viales-stream.streamlit.app/>[App Siniestros Viales]</A>como hice deploy final de la app en unos minutos:
-Ver video en el siguiente enlace, haciendo click en la imagen:
+  Te invito a ver mi app en el siguiente enlace: <A HREF=https://siniestros-viales-stream.streamlit.app/>[App Siniestros Viales]</A>
+
+  Puede ver video del deploy en el siguiente enlace, haciendo click en la imagen:
 
 
 <A HREF=https://drive.google.com/file/d/107nAYMLCiHLa7IM9BA4M2EgYxE4SI4Ih/view>![](https://github.com/EliasIchi/PI2_Henry/assets/124707045/d9b1a59b-2fc3-4adf-8745-7bd9eaea5961)</A>
