@@ -83,6 +83,8 @@ A simple vista, se entiende que se le dió mayor importancia en recaudar datos s
 3. **Reducir en un 10% la cantidad de accidentes en cruces en el último año, en CABA,** **respecto al año anterior.**
 
     Definimos a la *cantidad de accidentes mortales en cruces en siniestros viales* como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas en cruces en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales en cruces es: **(Número de accidentes mortales con víctimas en cruces en el año anterior - Número de accidentes mortales con víctimas en cruces año actual) / (Número de accidentes mortales con víctimas en cruces en el año anterior) * 100**
+
+   
 ![kpis (1)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/400f359e-9609-4a7b-9c93-07699091b30a)
 
 
