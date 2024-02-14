@@ -2,7 +2,7 @@
 
 ¡Bienvenidos al repositorio del Proyecto Individual N°2 de la carrera Ciencia de Datos en Henry! 🎓
 
-![accidentes_viales]](https://github.com/EliasIchi/PI2_Henry/assets/124707045/797de0bd-c95a-4b1f-b9d1-a9eaa2529df1)
+![accidentes_viales](https://github.com/EliasIchi/PI2_Henry/assets/124707045/797de0bd-c95a-4b1f-b9d1-a9eaa2529df1)
 )
 
 ## Data Analyst 📊
