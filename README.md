@@ -11,20 +11,20 @@ En esta oportunidad, *Henry* nos desafía a crear un proyecto desde el rol de an
 
 ## Índice 📝
 
-- [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#contexto)
-- [Estructura del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#estructura-del-proyecto)
-- [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto)
-- [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis)
-- [ETL (Extract, Transform, Load)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#etl-extract-transform-load)
-- [KPIs (Key Performance Indicators)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#kpis-key-performance-indicator)
-- [Dashboard Final](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#dashboard-final-siniestros-viales)
-- [Streamlit](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#streamlit)
-- [Conclusiones](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#conclusiones)
-- [Sugerencias](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#sugerencias)
+- [Contexto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#contexto-)
+- [Estructura del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#estructura-del-proyecto-)
+- [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto-)
+- [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis-)
+- [ETL (Extract, Transform, Load)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#etl-extract-transform-load-)
+- [KPIs (Key Performance Indicators)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#kpis-key-performance-indicator-)
+- [Dashboard Final](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#dashboard-final-siniestros-viales-)
+- [Streamlit](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#streamlit-)
+- [Conclusiones](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#conclusiones-)
+- [Sugerencias](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#sugerencias-)
 
 ## Contexto 🌍
 
-La *Agencia Nacional de Seguridad Vial* dio a conocer que durante el año 2021, 3.861 personas fallecieron como consecuencia de siniestros viales. La cifra representa una disminución del 21% de víctimas mortales con respecto al 2019, año comparable en términos de circulación prepandemia. Además, es la cifra más baja de siniestralidad vial desde 2008. Las estadísticas de la ANSV se realizan en conjunto con todas las provincias, son oficiales, contrastables y con posibilidad de identificación individual de las personas fallecidas.
+El Observatorio de Movilidad y Seguridad Vial de la Ciudad genera información fehaciente que nos permite tomar decisiones de manera conjunta con vecinos, vecinas y la sociedad civil para mejorar la seguridad vial y la forma en la que nos movemos todos los días. Es por eso que necesita a los mejores analsitas de datos para este proyecto!
 
 ## Estructura del Proyecto 🏗️
 
