@@ -45,10 +45,6 @@ La Agencia Nacional de Seguridad Vial dio a conocer que durante el año 2021, 3.
 
 - **LICENSE**: Archivo que contiene la licencia del repositorio.
 
-## ¡Contribuciones Son Bienvenidas! 🙌
-
-• README.md > Archivo README del proyecto.
-
 
 
 
