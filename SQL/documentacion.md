@@ -6,10 +6,10 @@ A continuación, encontrarás las instrucciones para acceder a la base de datos 
 
 ## Detalles de Acceso
 
-- **Host:** beluwmcbyk7jtcwfn5hm-mysql.services.clever-cloud.com
-- **Nombre de la Base de Datos:** beluwmcbyk7jtcwfn5hm
-- **Usuario:** uvbsbzdexdjlsubk
-- **Contraseña:** NJu410nzcf4aDiYRlXLF
+- **Host:** sql10.freesqldatabase.com
+- **Nombre de la Base de Datos:** sql10684340
+- **Usuario:** sql10684340
+- **Contraseña:** K7Dy9fwLPY
 
 ## Pasos para Acceder
 
@@ -17,10 +17,10 @@ A continuación, encontrarás las instrucciones para acceder a la base de datos 
 
 2. Ingresa la información de conexión provista anteriormente en los campos correspondientes del cliente de MySQL:
 
-   - **Host:** bxokxli6ony9h37yyttx-mysql.services.clever-cloud.com
-   - **Nombre de la Base de Datos:** bxokxli6ony9h37yyttx
-   - **Usuario:** up6ttqf318weusrr
-   - **Contraseña:** YeJzjF29ERbMf6PHHThK
+   - **Host:** sql10.freesqldatabase.com
+   - **Nombre de la Base de Datos:** sql10684340
+   - **Usuario:** sql10684340
+   - **Contraseña:** K7Dy9fwLPY
    - 
 3. Haz clic en "Conectar" o presiona Enter para establecer la conexión con la base de datos.
 
