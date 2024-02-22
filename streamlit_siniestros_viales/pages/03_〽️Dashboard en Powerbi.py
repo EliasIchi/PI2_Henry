@@ -6,6 +6,6 @@ st.markdown("***")
 
 
 # Insertar el dashboard de Power BI utilizando un iframe
-st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiOWVkYjFhYmUtNjI5Mi00ZmIyLTgyYTItNjcyYzU0Yzg0MWU4IiwidCI6IjgyZDEwOTAwLWM2M2ItNDhhYi1hYTg1LWViMWM2OTJjYThmMSIsImMiOjR9",
+st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMTAwZGZkMWQtMWVkNy00ZjZjLThkZWEtNTA1ZDRlNmFmZDNkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9",
                         width=800,
                         height=600)
