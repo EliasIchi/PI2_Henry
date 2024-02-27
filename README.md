@@ -68,7 +68,7 @@ A simple vista, se entiende que se le dio mayor importancia en recaudar datos so
 
 3. **_Reducir en un 10% la cantidad de accidentes en cruces en el último año, en CABA,_** respecto al año anterior.
 
-[![kpis (1)](https://github.com/EliasIchi/PI2_Henry/assets/124707045/400f359e-9609-4a7b-9c93-07699091b30a)]()
+(![kpis](https://github.com/EliasIchi/PI2_Henry/assets/124707045/c7e81a83-fd3a-4c97-9789-2e7aae6d3358))]()
 
 ## Dashboard Final Siniestros Viales 📊
 
