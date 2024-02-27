@@ -16,7 +16,7 @@ En esta oportunidad, *Henry* nos desafía a crear un proyecto desde el rol de an
 - [Desarrollo del proyecto](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#desarrollo-del-proyecto-)
 - [EDA (Exploratory Data Analysis)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#eda-exploratory-data-analysis-)
 - [ETL (Extract, Transform, Load)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#etl-extract-transform-load-)
-- [KPIs (Key Performance Indicators)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#kpis-key-performance-indicator-)
+- [KPIs (Key Performance Indicators)](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#kpis-key-performance-indicators-)
 - [Dashboard Final](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#dashboard-final-siniestros-viales-)
 - [Streamlit](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#streamlit-)
 - [Conclusiones](https://github.com/EliasIchi/PI2_Henry/blob/main/README.md#conclusiones-)
@@ -68,7 +68,7 @@ A simple vista, se entiende que se le dio mayor importancia en recaudar datos so
 
 3. **_Reducir en un 10% la cantidad de accidentes en cruces en el último año, en CABA,_** respecto al año anterior.
 
-(![kpis](https://github.com/EliasIchi/PI2_Henry/assets/124707045/c7e81a83-fd3a-4c97-9789-2e7aae6d3358))]()
+(![kpis](https://github.com/EliasIchi/PI2_Henry/assets/124707045/c7e81a83-fd3a-4c97-9789-2e7aae6d3358))
 
 ## Dashboard Final Siniestros Viales 📊
 
