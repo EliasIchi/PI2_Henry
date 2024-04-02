@@ -2,7 +2,7 @@ name: Actualizar Dato
 
 on:
   schedule:
-    - cron: '35 2 * * MON-FRI'   # Ejecutar a las 08:00 de lunes a viernes
+    - cron: '36 2 * * MON-FRI'   
 
 jobs:
   ejecutar-script:
@@ -24,3 +24,4 @@ jobs:
     - name: Ejecutar script de Python
       run: |
         python test.py
+
