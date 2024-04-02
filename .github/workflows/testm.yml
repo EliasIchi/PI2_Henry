@@ -2,7 +2,7 @@ name: Actualizar Dato
 
 on:
   schedule:
-    - cron: '33 23 * * MON-FRI'
+    - cron: '34 23 * * MON-FRI'
 jobs:
   ejecutar-script:
     runs-on: ubuntu-latest
