@@ -1,8 +1,8 @@
-name: Actualizar Dato
+name: main
 
 on:
   schedule:
-    - cron: '41 2 * * MON-FRI'   # Ejecutar a las 08:00 de lunes a viernes
+    - cron: '48 2 * * MON-FRI'   # Ejecutar a las 08:00 de lunes a viernes
 
 jobs:
   ejecutar-script:
