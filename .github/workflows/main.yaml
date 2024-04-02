@@ -2,7 +2,7 @@ name: main
 
 on:
   schedule:
-    - cron: '48 2 * * MON-FRI'   # Ejecutar a las 08:00 de lunes a viernes
+    - cron: '50 2 * * MON-FRI'   # Ejecutar a las 08:00 de lunes a viernes
 
 jobs:
   ejecutar-script:
