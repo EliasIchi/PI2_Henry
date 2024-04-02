@@ -1,6 +1,9 @@
+name: test
+
 on:
   schedule:
     - cron: '3 3 * * *'   # Ejecutar a las 08:00 de lunes a viernes
+  workflow_dispatch:
 
 jobs:
   ejecutar-script:
