@@ -24,8 +24,8 @@ jobs:
 
     - name: Instalar dependencias
       run: |
-        pip install pandas simple-salesforce requests py7zr
+        pip install pandas azure-storage-blob
 
     - name: Ejecutar script de Python
       run: |
-        python qa.py
+        python test.py
