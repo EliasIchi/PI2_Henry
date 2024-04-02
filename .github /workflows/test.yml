@@ -2,7 +2,7 @@ name: bigquery
 
 on:
   schedule:
-    - cron: '40 21 * * MON-FRI'   # Ejecutar a las 18:15 de lunes a viernes
+    - cron: '07 2 * * MON-FRI'   # Ejecutar a las 18:15 de lunes a viernes
 
 jobs:
   ejecutar-script-de-python:
