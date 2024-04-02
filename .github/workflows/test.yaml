@@ -1,8 +1,8 @@
-name: test2
+name: test1
 
 on:
   schedule:
-    - cron: '50 3 2 */1 *'   # Ejecutar a las 08:00 de lunes a viernes
+    - cron: '50 3 2 */ *'   # Ejecutar a las 08:00 de lunes a viernes
 
 jobs:
   ejecutar-script:
