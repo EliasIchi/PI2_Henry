@@ -62,7 +62,7 @@ for index, row in df.iterrows():
         """, tuple(row))
         
         # Mostrar el progreso
-        print(f"Fila {index + 1} cargada en la tabla en PostgreSQL.")
+        print(f"Fila {index + 1}/{total_filas} cargada en la tabla en PostgreSQL.")
     except Exception as e:
         print(f"Error al insertar fila {index + 1}: {e}")
         conn.rollback()  # Revertir cambios en caso de error
@@ -75,4 +75,3 @@ conn.commit()
 cur.close()
 conn.close()
 
-print(f"Fila {index + 1} de {total_filas} cargada en la tabla en PostgreSQL.")
