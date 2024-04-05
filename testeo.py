@@ -43,22 +43,30 @@ conn = psycopg2.connect(
 )
 
 # Nombre de la tabla en PostgreSQL
-table_name = "taxis_yellow"
+table_name = "testeo"
 
-# Crear un cursor
+df = df[['VendorID', 'tpep_pickup_datetime', 'tpep_dropoff_datetime',
+       'trip_distance']]
+
+total_filas = len(df)
+
 cur = conn.cursor()
 
 # Iterar sobre las filas del DataFrame y ejecutar INSERT INTO para cada fila
 for index, row in df.iterrows():
-    cur.execute("""
-    INSERT INTO taxis_yellow (
-        VendorID, tpep_pickup_datetime, tpep_dropoff_datetime, passenger_count
-    )
-    VALUES (%s, %s, %s, %s)
-    """, tuple(row))
-    
-    # Mostrar el progreso
-    print(f"Fila {index + 1} cargada en la tabla en PostgreSQL.")
+    try:
+        cur.execute("""
+        INSERT INTO testeo (
+            VendorID, tpep_pickup_datetime, tpep_dropoff_datetime, trip_distance)
+        VALUES (%s, %s, %s, %s)
+        """, tuple(row))
+        
+        # Mostrar el progreso
+        print(f"Fila {index + 1} cargada en la tabla en PostgreSQL.")
+    except Exception as e:
+        print(f"Error al insertar fila {index + 1}: {e}")
+        conn.rollback()  # Revertir cambios en caso de error
+        break
 
 # Confirmar la ejecución de la transacción
 conn.commit()
@@ -67,4 +75,4 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Datos cargados en la tabla en PostgreSQL.")
+print(f"Fila {index + 1}/{total_filas} cargada en la tabla en PostgreSQL.")
