@@ -75,4 +75,4 @@ conn.commit()
 cur.close()
 conn.close()
 
-print(f"Fila {index + 1}/{total_filas} cargada en la tabla en PostgreSQL.")
+print(f"Fila {index + 1} de {total_filas} cargada en la tabla en PostgreSQL.")
