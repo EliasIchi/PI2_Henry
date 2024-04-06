@@ -3,6 +3,7 @@ import psycopg2
 from psycopg2.extras import execute_values
 from datetime import datetime
 
+
 # Obtener la fecha actual
 fecha_actual = datetime.now()
 
@@ -22,6 +23,13 @@ ruta_archivo = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{nombre_archivo
 # Intentar cargar el archivo Parquet en un DataFrame
 df = pd.read_parquet(ruta_archivo)
 print(f"DataFrame cargado correctamente desde {ruta_archivo}")
+
+# Detalles de la conexión a PostgreSQL
+host = "bivcrdepa3dc6zn6enju-postgresql.services.clever-cloud.com"
+database = "bivcrdepa3dc6zn6enju"
+user = "uyomkpixi8ntfsmrgzgi"
+password = "F2kDStOnYq4NGphr65HyLtudOh63rq"
+port = "50013"
 
 # Crear una conexión a la base de datos
 conn = psycopg2.connect(
