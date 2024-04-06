@@ -1,6 +1,7 @@
 import pandas as pd
 import psycopg2
-from datetime import datetime, timedelta
+from psycopg2.extras import execute_values
+from datetime import datetime
 
 # Obtener la fecha actual
 fecha_actual = datetime.now()
@@ -18,22 +19,11 @@ nombre_archivo = f"yellow_tripdata_{año_tres_meses_atras}-{mes_tres_meses_atras
 # Construir la ruta del archivo Parquet
 ruta_archivo = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{nombre_archivo}"
 
-# Detalles de la conexión a PostgreSQL
-host = "bivcrdepa3dc6zn6enju-postgresql.services.clever-cloud.com"
-database = "bivcrdepa3dc6zn6enju"
-user = "uyomkpixi8ntfsmrgzgi"
-password = "F2kDStOnYq4NGphr65HyLtudOh63rq"
-port = "50013"
-
-
 # Intentar cargar el archivo Parquet en un DataFrame
-try:
-    df = pd.read_parquet(ruta_archivo)
-    print(f"DataFrame cargado correctamente desde {ruta_archivo}")
-except Exception as e:
-    print(f"No se pudo cargar el archivo {nombre_archivo}: {e}")
+df = pd.read_parquet(ruta_archivo)
+print(f"DataFrame cargado correctamente desde {ruta_archivo}")
 
-# Establecer conexión a PostgreSQL
+# Crear una conexión a la base de datos
 conn = psycopg2.connect(
     host=host,
     database=database,
@@ -43,35 +33,25 @@ conn = psycopg2.connect(
 )
 
 # Nombre de la tabla en PostgreSQL
-table_name = "testeo"
+table_name = "testeo9"
 
-df = df[['VendorID', 'tpep_pickup_datetime', 'tpep_dropoff_datetime',
-       'trip_distance']]
-
-total_filas = len(df)
-
+# Crear un cursor
 cur = conn.cursor()
 
-# Iterar sobre las filas del DataFrame y ejecutar INSERT INTO para cada fila
-for index, row in df.iterrows():
-    try:
-        cur.execute("""
-        INSERT INTO testeo (
-            VendorID, tpep_pickup_datetime, tpep_dropoff_datetime, trip_distance)
-        VALUES (%s, %s, %s, %s)
-        """, tuple(row))
-        
-        # Mostrar el progreso
-        print(f"Fila {index + 1}/{total_filas} cargada en la tabla en PostgreSQL.")
-    except Exception as e:
-        print(f"Error al insertar fila {index + 1}: {e}")
-        conn.rollback()  # Revertir cambios en caso de error
-        break
+
+
+# Crear una lista de tuplas con los datos
+data = [tuple(row) for _, row in df.iterrows()]
+
+# Insertar los datos en la tabla
+execute_values(cur, f"INSERT INTO {table_name} VALUES %s", data)
 
 # Confirmar la ejecución de la transacción
 conn.commit()
 
+# Imprimir el progreso
+print(f"Se han cargado {len(data)} filas en la tabla {table_name}.")
+
 # Cerrar el cursor y la conexión
 cur.close()
 conn.close()
-
