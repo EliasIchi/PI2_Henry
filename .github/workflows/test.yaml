@@ -20,7 +20,7 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          pip install pandas snowflake-connector-python
+          pip install pandas snowflake-connector-python pyarrow
 
       - name: Ejecutar script de Python
         run: |
