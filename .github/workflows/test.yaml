@@ -20,7 +20,7 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          pip install pandas azure-storage-blob fastparquet pyarrow psycopg2
+          pip install pandas snowflake-connector-python
 
       - name: Ejecutar script de Python
         run: |
